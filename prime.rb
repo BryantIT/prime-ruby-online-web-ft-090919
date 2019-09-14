@@ -8,6 +8,7 @@ def prime?(num)
     
   else range.each do |n| num % n == 0
    return false
-   end
+    end
+  end
  true
 end
