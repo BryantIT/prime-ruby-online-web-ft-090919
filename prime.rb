@@ -3,7 +3,7 @@ def prime?(num)
   if num <= 1
     return false
     
-  elsif range.each do {|n| num % n == 0}
+  elsif range.each{|n| num % n == 0}
    return false
   end
  
