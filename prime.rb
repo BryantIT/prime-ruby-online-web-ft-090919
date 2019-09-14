@@ -3,9 +3,8 @@ def prime?(num)
   if num <= 1
     return false
     
-  elsif range.each{|n| num % n == 0}
+  elsif range.find{|n| num % n == 0}
    return false
   end
  
-
 end
