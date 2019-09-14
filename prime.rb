@@ -10,5 +10,6 @@ def prime?(num)
     |n| if num % n == 0
    return false
     end
+  end
  true
 end
