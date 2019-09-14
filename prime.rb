@@ -3,11 +3,11 @@ def prime?(num)
   if num <= 1
     return false
     
-  elsif range.each{|n| num % n == 0}
-   return false
-   
-  else num <= 3
+  elsif num <= 3
    return true
-  end
+    
+  else range.each{|n| num % n == 0}
+   return false
+   end
  return true
 end
