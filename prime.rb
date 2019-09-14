@@ -9,6 +9,7 @@ def prime?(num)
   else range.each{
     |n| if num % n == 0
    return false
+ end
   }
     end
  true
