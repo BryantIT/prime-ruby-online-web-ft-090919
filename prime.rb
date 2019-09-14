@@ -7,7 +7,7 @@ def prime?(num)
    return true
     
   else range.each{
-    |n| num % n == 0
+    |n| if num % n == 0
    return false}
     end
  true
