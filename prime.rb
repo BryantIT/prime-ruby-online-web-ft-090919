@@ -9,5 +9,5 @@ def prime?(num)
   else range.each{|n| n % num == 0}
    return false
    end
- return true
+ true
 end
