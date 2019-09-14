@@ -6,8 +6,8 @@ def prime?(num)
   elsif range.each{|n| num % n == 0}
    return false
    
-  elsif num <= 3
+  else num <= 3
    return true
   end
- 
+ return true
 end
