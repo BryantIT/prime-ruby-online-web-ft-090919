@@ -4,5 +4,8 @@ def prime?(num)
     return false
     
   elsif range.each do {|n| num % n == 0}
+   return false
+  end
+ 
 
 end
